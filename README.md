@@ -1,13 +1,13 @@
-# 🕵️ RealityCheck
+# 🕵️ RealtyCheck
 
-**RealityCheck** is a smart, no-fluff web app that helps real estate investors — especially those looking at vacation homes — make safer, smarter decisions. By using data from Redfin, Zillow, FEMA, and vacation rental trends, RealityCheck acts like a digital detective, spotting hidden risks in properties, forecasting returns, and comparing investment options with ease.
+**RealtyCheck** is a smart, no-fluff web app that helps real estate investors — especially those looking at vacation homes — make safer, smarter decisions. By using data from Redfin, Zillow, FEMA, and vacation rental trends, RealtyCheck acts like a digital detective, spotting hidden risks in properties, forecasting returns, and comparing investment options with ease.
 
 ---
 
 ## 📌 Project Summary
 
 **Investing in real estate is hard.**  
-RealityCheck simplifies the process by showing users the *real story* behind each property — from flood zones and crime trends to vacation rental restrictions and ROI forecasts — so they don’t fall into costly traps.
+RealtyCheck simplifies the process by showing users the *real story* behind each property — from flood zones and crime trends to vacation rental restrictions and ROI forecasts — so they don’t fall into costly traps.
 
 ---
 
@@ -46,7 +46,7 @@ RealityCheck simplifies the process by showing users the *real story* behind eac
   - Tax benefits (first/second home)
 
 ### 🧾 Financial Snapshot
-- For each property, RealityCheck shows:
+- For each property, RealtyCheck shows:
   - Estimated insurance premiums
   - Property taxes
   - Loan options (FHA, VA, conventional)
@@ -56,7 +56,7 @@ RealityCheck simplifies the process by showing users the *real story* behind eac
 
 ## 🗂 File Structure
 
-/realitycheck
+/RealtyCheck
 ├── index.html              # Homepage – search by ZIP, browse top listings
 ├── compare.html            # Compare selected properties by risk & return
 ├── forecast.html           # Investment calculator (timeframe, return, risk)
