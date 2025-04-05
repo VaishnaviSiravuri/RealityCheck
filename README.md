@@ -1,48 +1,128 @@
-# 🏡 RealityCheck – Smarter, Safer Real Estate Investing
+# 🕵️ RealityCheck
 
-**RealityCheck** is a smart, user-friendly web application that acts like a digital detective for real estate investments. Built with simplicity and intelligence in mind, it helps investors — especially in vacation and residential properties — spot hidden risks and make data-driven, safer decisions. Powered by insights from Zillow, Redfin, FEMA, and vacation rental trends, RealityCheck gives you a full picture of your investment before you commit.
+**RealityCheck** is a smart, no-fluff web app that helps real estate investors — especially those looking at vacation homes — make safer, smarter decisions. By using data from Redfin, Zillow, FEMA, and vacation rental trends, RealityCheck acts like a digital detective, spotting hidden risks in properties, forecasting returns, and comparing investment options with ease.
 
 ---
 
-## 🌟 Key Features
+## 📌 Project Summary
 
-### 🔍 Property Risk Detection
-- **Risk Score Calculator** – Detects red flags like:
-  - Flood, wildfire, and earthquake zones (FEMA)
-  - Crime rate trends
-  - Structural issues or suspicious relisting patterns
-  - HOA/legal disputes and zoning changes
+**Investing in real estate is hard.**  
+RealityCheck simplifies the process by showing users the *real story* behind each property — from flood zones and crime trends to vacation rental restrictions and ROI forecasts — so they don’t fall into costly traps.
+
+---
+
+## 🔑 Key Features
+
+### 🔍 Smart Risk Detection
+- Generates a **Risk Score** (0–100) based on:
+  - Natural disaster zones (FEMA)
+  - Crime rate trends (Crimeometer API)
+  - Suspicious listing behavior (frequent relisting, flips)
+  - HOA lawsuits, zoning changes, foundation issues
 
 ### 🏖️ Vacation Home Insights
-- **Vacation Viability Index** – Evaluates:
-  - Airbnb/VRBO seasonal income trends
-  - Occupancy rates and oversaturation
-  - Local short-term rental regulations
-- Alerts users when a listing is too close to holidays, oversaturated markets, or in ban-prone zones.
+- **Vacation Viability Index**:
+  - Airbnb/VRBO income estimates
+  - Occupancy rates and seasonal trends
+  - Local STR (short-term rental) regulations
+  - Warns against holiday-adjacent or oversaturated zones
 
 ### 📊 Investment Comparison Tool
-- Compare multiple listings side-by-side:
+- Compare any number of properties side-by-side:
   - Risk score
-  - Insurance & loan eligibility
-  - Vacation rental ROI
-  - Historical price volatility
-  - Neighborhood safety & business activity
+  - Insurance cost and loan eligibility
+  - Natural disaster risk
+  - Neighborhood business vitality
+  - ROI potential (resale + rental)
 
-### 💰 Return Forecast Tool
-- Enter amount willing to invest + timeframe
-- RealityCheck projects:
-  - Profit/loss estimates
-  - Rental income over time
-  - Tax benefits (first/second home buyers)
-  - Financial recommendations
+### 💰 Forecast Tool
+- Input your:
+  - Investment amount
+  - Timeframe (in years)
+- Outputs:
+  - Projected ROI or loss
+  - Estimated rental income
+  - Price appreciation trends
+  - Tax benefits (first/second home)
 
-### 🏦 Financial Snapshot
-- Property-specific breakdown of:
+### 🧾 Financial Snapshot
+- For each property, RealityCheck shows:
   - Estimated insurance premiums
   - Property taxes
-  - Loan type eligibility (FHA, VA, Conventional)
-  - HOA fees and hidden charges
+  - Loan options (FHA, VA, conventional)
+  - HOA fees and hidden costs
 
 ---
 
-## 🗂️ Project Structure
+## 🗂 File Structure
+
+/realitycheck
+├── index.html              # Homepage – search by ZIP, browse top listings
+├── compare.html            # Compare selected properties by risk & return
+├── forecast.html           # Investment calculator (timeframe, return, risk)
+│
+├── /css
+│   └── styles.css          # Styling for all pages
+│
+├── /js
+│   ├── app.js              # Logic for homepage and ZIP search
+│   ├── comparison.js       # Comparison dashboard logic
+│   └── forecast.js         # ROI calculator logic
+│
+├── /assets
+│   └── icons/              # Icons and images used in UI
+│
+├── /data
+│   └── sample-listings.json  # Example listing data or API-connected results
+
+
+---
+
+## 🔧 Tech Stack
+
+- **Frontend:** HTML, CSS, Vanilla JavaScript
+- **No frameworks (no React.js)**  
+- **APIs & Data Sources:**
+  - **Zillow & Redfin** – Property data and trends
+  - **FEMA API** – Disaster zone mapping (flood, wildfire, earthquake)
+  - **Crimeometer API** – Crime trends and safety scores
+  - **AirDNA / Mashvisor (optional)** – Vacation rental income and occupancy
+  - **Google Maps & Yelp APIs** – Business activity and neighborhood insights
+  - **Bankrate/NerdWallet (optional)** – Loan comparison and mortgage insights
+
+---
+
+## 📈 How It Works
+
+1. **Search** by ZIP code or location
+2. **View top properties** with risk and ROI highlights
+3. **Compare** multiple listings in a detailed breakdown
+4. **Forecast** your investment’s potential based on time and money
+5. **Decide** with clarity, backed by real data — not just realtor talk
+
+---
+
+## 🔮 Future Features
+
+- In-app verified real estate agents
+- AI assistant to explain reports and risks
+- PDF upload for home inspections → instant AI summary
+- International vacation markets support
+- Real-time reviews from past buyers
+
+---
+
+## ⚖️ License
+
+**MIT License** – Free for personal, academic, and non-commercial use.
+
+---
+
+## 👥 Contributors
+
+Created by a team passionate about:
+- Smarter real estate investing  
+- Data-driven decision-making  
+- Building tools that protect and empower everyday investors
+
+---
