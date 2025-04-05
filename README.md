@@ -54,30 +54,6 @@ RealtyCheck simplifies the process by showing users the *real story* behind each
 
 ---
 
-## 🗂 File Structure
-
-/RealtyCheck
-├── index.html              # Homepage – search by ZIP, browse top listings
-├── compare.html            # Compare selected properties by risk & return
-├── forecast.html           # Investment calculator (timeframe, return, risk)
-│
-├── /css
-│   └── styles.css          # Styling for all pages
-│
-├── /js
-│   ├── app.js              # Logic for homepage and ZIP search
-│   ├── comparison.js       # Comparison dashboard logic
-│   └── forecast.js         # ROI calculator logic
-│
-├── /assets
-│   └── icons/              # Icons and images used in UI
-│
-├── /data
-│   └── sample-listings.json  # Example listing data or API-connected results
-
-
----
-
 ## 🔧 Tech Stack
 
 - **Frontend:** HTML, CSS, Vanilla JavaScript
