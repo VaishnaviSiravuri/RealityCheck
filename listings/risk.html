@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Risk Report - RealityCheck</title>
+  <link rel="stylesheet" href="risk.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Risk Report for <span id="property-address"></span></h1>
+    <p>Powered by FEMA, Crimeometer, and Market Data</p>
+  </header>
+
+  <section class="risk-overview">
+    <h2>Overall Risk Score</h2>
+    <div id="risk-circle">
+      <span id="risk-score"></span>
+    </div>
+  </section>
+
+  <section class="risk-breakdown">
+    <div class="card">
+      <h3>📈 Investment Trends</h3>
+      <p id="investment-trends"></p>
+    </div>
+    <div class="card">
+      <h3>🌪️ Natural Disasters</h3>
+      <p id="natural-disasters"></p>
+    </div>
+    <div class="card">
+      <h3>🚨 Crime Data</h3>
+      <p id="crime-data"></p>
+    </div>
+    <div class="card">
+      <h3>🌍 Foundation & Soil</h3>
+      <p id="foundation-soil"></p>
+    </div>
+  </section>
+
+  <section class="summary">
+    <h2>Summary</h2>
+    <p id="summary-text"></p>
+  </section>
+
+  <div class="nav-buttons">
+    <button onclick="window.location.href='listings.html'">Analyze another</button>
+    <button onclick="window.location.href='index.html'">Forecast ROI</button>
+  </div>
+
+  <script src="risk.js"></script>
+</body>
+</html>
